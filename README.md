@@ -138,18 +138,3 @@ temporal_attention = np.sum(cam_upsampled, axis=0)
 atb = compute_atb_ratio(raw_series_1d, temporal_attention)
 print(f"Attention-to-Burst (AtB) Ratio: {atb:.2f}%")
 ```
-
----
-
-## 5. Citation
-
-If you find this benchmark or transformation methodology useful in your research, please cite:
-
-```bibtex
-@article{biernacki2026structured,
-  title={Structured 2D Data Transformations for Resource-Efficient and Explainable CNN-Based Encrypted Video Traffic Classification},
-  author={Biernacki, Arkadiusz},
-  journal={Electronics},
-  year={2026}
-}
-```
